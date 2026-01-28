@@ -1,15 +1,25 @@
-# AI Food Calories App (Flutter)
+# Fruit Catching Game (Android - Kotlin)
 
 ## Description
-A Flutter mobile application that analyzes food images and estimates calories using AI.
+A fun and interactive Android game developed using Kotlin, where the player catches falling fruits using a gyroscope-controlled paddle. The game increases in difficulty over time and keeps track of the score.
 
 ## Features
-- Capture food images with camera
-- Analyze food and calculate calories using AI
-- Track daily food intake
-- User authentication with Firebase
+- Control the paddle using the **Gyroscope sensor**
+- **Green fruits** increase the score
+- **Red fruits** decrease the score
+- **Golden fruits** appear rarely and give bonus points
+- Game ends if the player misses **5 fruits** of any type
+- **Sound effects and visual animations** for better user experience
+- Score and **high score saving** functionality
 
 ## Technologies
-- Flutter & Dart
-- Firebase
-- AI Image Analysis API
+- Kotlin
+- Android Studio
+- Gyroscope Sensor
+- SharedPreferences for high score saving
+- MediaPlayer for sounds
+
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/username/fruit-catching-game.git
